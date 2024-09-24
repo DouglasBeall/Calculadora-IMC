@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Calculadora - IMC </title>
+</head>
+<body>
+    <section>
+        <p> Nome </p>
+        <input type="text" name="txtNome" id="txtNome">
+
+        <p> Altura </p>
+        <input type="number" name="numAltura" id="numAltura">
+
+        <p> Peso </p>
+        <input type="number" name="numPeso" id="numPeso">
+            
+        <p> <input type="button" value="Calcular" id="btnCalcular" onclick = "calcular()"> </p>
+        <div id="res">
+
+        </div>
+    </section>
+
+    <footer> &copy; Douglas Beal </footer>
+
+    <p id = "ancora"> 
+        <a href="https://vidasaudavel.einstein.br/calcular-o-seu-imc/">
+            Fonte IMC
+        </a>
+     </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
